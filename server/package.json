@@ -1,0 +1,26 @@
+{
+  "name": "nodelogin",
+  "version": "1.0.0",
+  "description": "Auth. application in NodeJS, Monk, express, bycrypt...",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiuzyo/NodeLogin.git"
+  },
+  "author": "Boris Loncaric",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiuzyo/NodeLogin/issues"
+  },
+  "homepage": "https://github.com/fiuzyo/NodeLogin#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "joi": "^17.6.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
